@@ -19,7 +19,7 @@ namespace Task18
                     triangle[i][j] += Math.Max(triangle[i - 1][j], triangle[i - 1][j + 1]);
                 }
             }
-            Console.WriteLine(triangle.Last().Last());
+            Console.WriteLine(triangle[triangle.Length - 1][0]);
         }
     }
 }
