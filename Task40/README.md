@@ -4,4 +4,5 @@
 0.123456789101112131415161718192021...
 ```
 Также дано, что d<sub>n</sub> представляет собой n-ую цифру дробной части. Найдите значение следующего выражения:  
-d<sub>1</sub> × d<sub>10</sub> × d<sub>100</sub> × d<sub>1000</sub> × d<sub>10000</sub> × d<sub>100000</sub> × d<sub>1000000</sub>
+d<sub>1</sub> × d<sub>10</sub> × d<sub>100</sub> × d<sub>1000</sub> × d<sub>10000</sub> × d<sub>100000</sub> × d<sub>1000000</sub>  
+[Ссылка на задачу](https://euler.jakumo.org/problems/view/40.html)
