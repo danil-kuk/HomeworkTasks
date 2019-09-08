@@ -9,7 +9,7 @@ def compute(triangle):
 
 
 def get_triangle():
-    file = open(r"../Task18/Triangle.txt", "r")
+    file = open(r"../C#/Task18/Triangle.txt", "r")
     lines = file.readlines()
     triangle = [[]]
     for line in lines:
