@@ -8,15 +8,17 @@ namespace Task25
     {
         static void Main(string[] args)
         {
-            var list = new List<BigInteger>
+            BigInteger prev = 0;
+            BigInteger current = 1;
+            var index = 1;
+            while (current.ToString().Length != 1000)
             {
-                1, 1
-            };
-            for (int i = 2; list[list.Count - 1].ToString().Length < 1000; i++)
-            {
-                list.Add(list[i - 1] + list[i - 2]);
+                var temp = current;
+                current = prev + current;
+                prev = temp;
+                index++;
             }
-            Console.WriteLine(list.Count);
+            Console.WriteLine(index);
         }
     }
 }
